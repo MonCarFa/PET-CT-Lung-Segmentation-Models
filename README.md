@@ -3,7 +3,7 @@ Two open-source nnU-Net models for automatic segmentation of lung tumors on PET 
 
 -------------------------------------------------------------------------
 
-|<https://github.com/MonCarFa/radiomics/>|
+|<https://github.com/MonCarFa/PET-CT-Lung-Segmentation-Models/>|
 --> A package providing two nnU-Net models for automatic segmentation of lung tumors on PET and CT images with and without respiratory motion compensation.
 
 -------------------------------------------------------------------------

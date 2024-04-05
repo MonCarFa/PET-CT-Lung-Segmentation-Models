@@ -1,18 +1,10 @@
 # PET-CT-Lung-Segmentation-Models
 Two open-source nnU-Net models for automatic segmentation of lung tumors on PET and CT images with and without respiratory motion compensation. In this repository the model weights are stored for the trained nnU-Net models as described in [Carles, M. et al. (2023)](#carles).
 
-## Repository structure
-This package contains 2 folders:
-1. [PETModel](PETModel/): Model for lung tumor segmentation on PET.
-2. [CTModel](CTModel/): Model for lung tumor segmentation on CT.
-
 ## Installation
 1. For this project the nnU-Net v1 was utilized as described in [Isensee, F. et al. (2021)](#isensee). Clone the nnU-Net repository and follow the [installation instructions](https://github.com/MIC-DKFZ/nnUNet/tree/nnunetv1).
 
-2. Clone this repository into a seperate directory to download both, the PET and the CT model weights
-```bash
-git clone https://github.com/MonCarFa/PET-CT-Lung-Segmentation-Models.git
-```
+2. Download and extract the [CT model](https://www.kaggle.com/models/dejankuhn/ct-lung-tumor-segmentation-model) or the [PET model](https://www.kaggle.com/models/dejankuhn/pet-lung-tumor-segmentation-model).
 3. Copy the Task directory of the desired model into the nnU-Net directory at the correct location. For example:
 ```bash
 your/path/to/nnUNet_trained_models/nnUNet/3d_fullres/Task998_LungCTSegmentation

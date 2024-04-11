@@ -1,5 +1,5 @@
 # PET-CT-Lung-Segmentation-Models
-Two open-source nnU-Net models for automatic segmentation of lung tumors on PET and CT images with and without respiratory motion compensation. In this repository the model weights are stored for the trained nnU-Net models as described in [Carles, M. et al. (2023)](#carles).
+Two open-source nnU-Net models for automatic segmentation of lung tumors on PET and CT images with and without respiratory motion compensation. In this repository the model weights are stored for the trained nnU-Net models as described in [Carles, M. et al. (2024)](#carles).
 
 ## Installation
 1. For this project the nnU-Net v1 was utilized as described in [Isensee, F. et al. (2021)](#isensee). Clone the nnU-Net repository and follow the [installation instructions](https://github.com/MIC-DKFZ/nnUNet/tree/nnunetv1).
@@ -26,7 +26,7 @@ nnUNet_predict -i FOLDER_WITH_TEST_CASES -o OUTPUT_FOLDER -tr nnUNetTrainerV2 -c
 Substitute `FOLDER_WITH_TEST_CASES` and `OUTPUT_FOLDER` with directory paths of your choice.
 
 ## References
-1. <a id="carles"></a>Carles, M. et al. (2023). Development and evaluation of two open-source nnU-Net models for automatic segmentation of lung tumors on PET and CT images with and without respiratory motion compensation. European Radiology, XX(XX), XXXX-XXXX.doi:10.XXXX/XXXX...
+1. <a id="carles"></a>Carles, M. et al. (2024). Development and evaluation of two open-source nnU-Net models for automatic segmentation of lung tumors on PET and CT images with and without respiratory motion compensation. European Radiology, XX(XX), XXXX-XXXX.doi:10.XXXX/XXXX...
 2. <a id="isensee"></a>Isensee, F. et al. (2021). nnU-Net: a self-configuring method for deep learning-based biomedical image segmentation. Nature methods, 18(2), 203–211. https://doi.org/10.1038/s41592-020-01008-z
 
 ## Author

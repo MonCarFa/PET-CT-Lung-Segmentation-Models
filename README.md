@@ -37,11 +37,11 @@ THANK YOU FOR YOUR INTEREST IN THIS PACKAGE
 If you have any questions, comments or suggestions about this package, please do not hesitate to contact me!
 
 ## History
-- Version 1.0: March 2023
+- Version 1.0: April 2024
 
 ## Citation
 Please cite the following paper if you use this work for your research:
 
 ```
-Carles, M. et al. (2023). Development and evaluation of two open-source nnU-Net models for automatic segmentation of lung tumors on PET and CT images with and without respiratory motion compensation. European Radiology, XX(XX), XXXX-XXXX.doi:10.XXXX/XXXX...
+Carles, M., Kuhn, D., Fechter, T. et al. Development and evaluation of two open-source nnU-Net models for automatic segmentation of lung tumors on PET and CT images with and without respiratory motion compensation. Eur Radiol (2024). https://doi.org/10.1007/s00330-024-10751-2
 ```

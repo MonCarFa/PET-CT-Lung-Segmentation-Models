@@ -26,7 +26,7 @@ nnUNet_predict -i FOLDER_WITH_TEST_CASES -o OUTPUT_FOLDER -tr nnUNetTrainerV2 -c
 Substitute `FOLDER_WITH_TEST_CASES` and `OUTPUT_FOLDER` with directory paths of your choice.
 
 ## References
-1. <a id="carles"></a>Carles, M. et al. (2024). Development and evaluation of two open-source nnU-Net models for automatic segmentation of lung tumors on PET and CT images with and without respiratory motion compensation. European Radiology, XX(XX), XXXX-XXXX.doi:10.XXXX/XXXX...
+1. <a id="carles"></a> Carles, M., Kuhn, D., Fechter, T. et al. Development and evaluation of two open-source nnU-Net models for automatic segmentation of lung tumors on PET and CT images with and without respiratory motion compensation. Eur Radiol (2024). https://doi.org/10.1007/s00330-024-10751-2
 2. <a id="isensee"></a>Isensee, F. et al. (2021). nnU-Net: a self-configuring method for deep learning-based biomedical image segmentation. Nature methods, 18(2), 203–211. https://doi.org/10.1038/s41592-020-01008-z
 
 ## Author
